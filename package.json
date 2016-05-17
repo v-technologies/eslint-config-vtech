@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vtech",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "The ESLint config used at V-Technologies",
   "author": "Félix Girault <felix@vtech.fr>",
   "repository": "v-technologies/eslint-config-vtech",
