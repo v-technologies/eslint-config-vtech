@@ -11,7 +11,7 @@ Setup
 Install the package and its peer dependencies:
 
 ```sh
-npm install --save-dev eslint-config-vtech babel-eslint eslint-plugin-babel eslint-plugin-react
+npm install --save-dev eslint-config-vtech babel-eslint eslint-plugin-babel eslint-plugin-react eslint-plugin-import eslint-plugin-jsx-a11y
 ```
 
 Configure ESLint by adding `.eslintrc` at the root of your project:
