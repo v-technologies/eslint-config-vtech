@@ -7,7 +7,8 @@
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
-    "eslint-config-airbnb": "^9.0.1"
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-render-if": "^0.1.0"
   },
   "peerDependencies": {
     "babel-eslint": "^6.0.0",
