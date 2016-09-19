@@ -9,12 +9,15 @@ module.exports = {
 		'render-if'
 	],
 	rules: {
-		'indent': [2, 'tab', {SwitchCase: 1}],
-		'comma-dangle': [2, 'never'],
-		'no-multiple-empty-lines': [2, {max: 3}],
-		'object-curly-spacing': [2, 'never'],
-		'react/jsx-indent-props': [2, 'tab'],
-		'react/jsx-indent': [2, 'tab'],
-		'render-if/prefer-lazy': 2
+		'no-tabs': 'off',
+		'arrow-parens': 'off',
+		'indent': ['error', 'tab', {SwitchCase: 1}],
+		'comma-dangle': ['error', 'never'],
+		'no-multiple-empty-lines': ['error', {max: 3}],
+		'object-curly-spacing': ['error', 'never'],
+		'react/jsx-filename-extension': 'off',
+		'react/jsx-indent-props': ['error', 'tab'],
+		'react/jsx-indent': ['error', 'tab'],
+		'render-if/prefer-lazy': 'error'
 	}
 }
