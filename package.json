@@ -1,21 +1,21 @@
 {
   "name": "eslint-config-vtech",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "The ESLint config used at V-Technologies",
   "author": "Félix Girault <felix@vtech.fr>",
   "repository": "v-technologies/eslint-config-vtech",
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
-    "eslint-config-airbnb": "^11.1.0",
+    "eslint-config-airbnb": "^15.1.0",
     "eslint-plugin-render-if": "^0.1.0"
   },
   "peerDependencies": {
-    "babel-eslint": "^6.1.0",
-    "eslint": "^3.4.0",
-    "eslint-plugin-babel": "^3.3.0",
-    "eslint-plugin-import": "^1.14.0",
-    "eslint-plugin-jsx-a11y": "^2.2.1",
-    "eslint-plugin-react": "^6.2.0"
+    "babel-eslint": "^7.2.0",
+    "eslint": "^3.19.0 || ^4.3.0",
+    "eslint-plugin-babel": "^4.1.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-react": "^7.1.0"
   }
 }
